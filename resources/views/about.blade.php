@@ -82,17 +82,17 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary">Al-fHf</h2>
+            <h2 class="m-0 text-primary">VERSALINK</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="project.html" class="nav-item nav-link">Project</a>
+                <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
+                <a href="{{ route('project') }}" class="nav-item nav-link">Project</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
@@ -173,9 +173,9 @@
                             <h1 class="display-5 mb-4">About Us</h1>
                         </div>
                         <p class="mb-4 pb-2">
-                            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                            Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                            sed stet lorem sit clita duo justo erat amet
+                            Versalink isn't your average company. Founded in 2023 by Alamin Abbas, we're a social
+                            enterprise driven by a powerful idea: to create a ripple effect of positive change in
+                            Nigeria. We achieve this by blending business success with social impact.
                         </p>
                         <div class="row g-4 mb-4 pb-2">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
@@ -225,7 +225,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="" />
+                            <img class="img-fluid" src="img/alamin.jpg" alt="" />
                             <div class="team-social">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -233,15 +233,15 @@
                             </div>
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Alamin Tajudeen Abbas</h5>
+                            <small>CEO</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="" />
+                            <img class="img-fluid" src="img/abba.jpg" alt="" />
                             <div class="team-social">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -249,7 +249,7 @@
                             </div>
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Full Name</h5>
+                            <h5 class="mb-0">Abba Ibrahim Jidda</h5>
                             <small>Designation</small>
                         </div>
                     </div>
@@ -265,7 +265,7 @@
                             </div>
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Full Name</h5>
+                            <h5 class="mb-0">Muhammad Jawwad Abdulkadir</h5>
                             <small>Designation</small>
                         </div>
                     </div>
@@ -273,7 +273,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="" />
+                            <img class="img-fluid" src="img/AK.jpg" alt="" />
                             <div class="team-social">
                                 <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -281,7 +281,7 @@
                             </div>
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
-                            <h5 class="mb-0">Full Name</h5>
+                            <h5 class="mb-0">Muhammad Alkali</h5>
                             <small>Designation</small>
                         </div>
                     </div>

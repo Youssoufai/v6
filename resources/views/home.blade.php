@@ -650,7 +650,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-light mb-4">Newsletter</h4>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <p>Type in your email address below to get update through our monthly newsletter</p>
                         <div class="position-relative mx-auto" style="max-width: 400px">
                             <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
                                 placeholder="Your email" />
