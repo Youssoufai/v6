@@ -533,7 +533,7 @@
                                 </div>
                             </div>
                             <div class="text-center border border-5 border-light border-top-0 p-4">
-                                <h5 class="mb-0">Full Name</h5>
+                                <h5 class="mb-0">Muhammad Jawwad Abdulkadir</h5>
                                 <small>Designation</small>
                             </div>
                         </div>
@@ -541,7 +541,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item">
                             <div class="overflow-hidden position-relative">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="" />
+                                <img class="img-fluid" src="img/AK.jpg" alt="" />
                                 <div class="team-social">
                                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -549,7 +549,7 @@
                                 </div>
                             </div>
                             <div class="text-center border border-5 border-light border-top-0 p-4">
-                                <h5 class="mb-0">Full Name</h5>
+                                <h5 class="mb-0">Muhammad Alkali</h5>
                                 <small>Designation</small>
                             </div>
                         </div>
@@ -667,7 +667,7 @@
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy;
-                            <a class="border-bottom" href="#">al-firdouse-foundation</a>, All
+                            <a class="border-bottom" href="#">Versalink</a>, All
                             Right Reserved 2024.
                         </div>
                         <div class="col-md-6 text-center text-md-end">
