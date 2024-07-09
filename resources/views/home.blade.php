@@ -643,9 +643,9 @@
 
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-light mb-4">Quick Links</h4>
-                        <a class="btn btn-link" href="index.html">Home</a>
-                        <a class="btn btn-link" href="about.html">About Us</a>
-                        <a class="btn btn-link" href="service.html">Our Services</a>
+                        <a class="btn btn-link" href="{{ route('home') }}">Home</a>
+                        <a class="btn btn-link" href="{{ route('about') }}">About Us</a>
+                        <a class="btn btn-link" href="{{ route('service') }}">Our Services</a>
                         <a class="btn btn-link" href="contact.html">Contact Us</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
