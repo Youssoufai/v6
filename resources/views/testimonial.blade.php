@@ -89,10 +89,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="project.html" class="nav-item nav-link">Project</a>
+                <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
+                <a href="{{ route('project') }}" class="nav-item nav-link">Project</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
