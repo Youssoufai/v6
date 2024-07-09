@@ -98,7 +98,7 @@
                 <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
                 <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
-                <a href="{{ route('project') }}" class="nav-item nav-link">Project</a>
+                <a href="{{ route('podcast') }}" class="nav-item nav-link">Podcast</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
