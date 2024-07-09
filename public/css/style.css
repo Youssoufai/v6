@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-	--primary: #ab7442;
+	--primary: #ec883d;
 	--light: #f5f5f5;
 	--dark: #353535;
 }
@@ -246,7 +246,7 @@
 	background-size: cover;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
 	color: var(--light);
 }
 
@@ -455,11 +455,9 @@
 	left: 0;
 	height: 100%;
 	width: 0;
-	background: linear-gradient(
-		to right,
-		rgba(255, 255, 255, 1) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
+	background: linear-gradient(to right,
+			rgba(255, 255, 255, 1) 0%,
+			rgba(255, 255, 255, 0) 100%);
 	z-index: 1;
 }
 
@@ -470,15 +468,14 @@
 	right: 0;
 	height: 100%;
 	width: 0;
-	background: linear-gradient(
-		to left,
-		rgba(255, 255, 255, 1) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
+	background: linear-gradient(to left,
+			rgba(255, 255, 255, 1) 0%,
+			rgba(255, 255, 255, 0) 100%);
 	z-index: 1;
 }
 
 @media (min-width: 768px) {
+
 	.testimonial-carousel::before,
 	.testimonial-carousel::after {
 		width: 200px;
@@ -486,6 +483,7 @@
 }
 
 @media (min-width: 992px) {
+
 	.testimonial-carousel::before,
 	.testimonial-carousel::after {
 		width: 300px;

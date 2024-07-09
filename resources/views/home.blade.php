@@ -66,7 +66,7 @@
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>+234 803 4567 890</small>
+                    <small>+234 </small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
@@ -88,17 +88,17 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary">Al-fHf</h2>
+            <h2 class="m-0 text-primary">VERSALINK</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="project.html" class="nav-item nav-link">Project</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
+                <a href="{{ route('project') }}" class="nav-item nav-link">Project</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
@@ -120,7 +120,7 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                <img class="img-fluid" src="img/carousel-1.avif" alt="" />
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(53, 53, 53, 0.7)">
                     <div class="container">
@@ -130,11 +130,8 @@
                                     Welcome To
                                 </h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">
-                                    Al - Firdous
+                                    VERSALINK
                                 </h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">
-                                    Humaniterian Foundation
-                                </p>
                                 <a href="about.html"
                                     class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
                                 <a href="donate.html"
@@ -155,11 +152,8 @@
                                     Welcome To
                                 </h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">
-                                    Al - Firdous
+                                    VERSALINK
                                 </h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">
-                                    Humaniterian Foundation
-                                </p>
                                 <a href="about.html"
                                     class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
                                 <a href="donate.html"
@@ -180,11 +174,8 @@
                                     Welcome To
                                 </h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">
-                                    Al - Firdous
+                                    VERSALINK
                                 </h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">
-                                    Humaniterian Foundation
-                                </p>
                                 <a href="about.html"
                                     class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
                                 <a href="donate.html"
@@ -253,9 +244,9 @@
                             <h1 class="display-5 mb-4">About Us</h1>
                         </div>
                         <p class="mb-4 pb-2">
-                            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                            Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                            sed stet lorem sit clita duo justo erat amet
+                            Versalink isn't your average company. Founded in 2023 by Alamin Abbas, we're a social
+                            enterprise driven by a powerful idea: to create a ripple effect of positive change in
+                            Nigeria. We achieve this by blending business success with social impact.
                         </p>
                         <div class="row g-4 mb-4 pb-2">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
