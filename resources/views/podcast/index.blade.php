@@ -7,20 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="{{ asset('fonts/icomoon/style.css') }}">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min2.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
 
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
 
-    <link rel="stylesheet" href="css/pd.css">
+    <link rel="stylesheet" href="{{ asset('css/podcast.css') }}">
 
 </head>
 
@@ -45,7 +45,7 @@
 
 
                     <div class="col-3" data-aos="fade-down">
-                        <h1><a href="#" class="text-white h2">Podca</a></h1>
+                        <h1><a href="#" class="text-white h2">Podcast</a></h1>
                     </div>
                     <div class="col-9" data-aos="fade-down">
                         <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
@@ -101,9 +101,11 @@
 
                     <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
                         <h2 class="text-white font-weight-light mb-2 display-4">Episode 09: How To Create Web Page Using
-                            Bootstrap 4</h2>
+                            Bootstrap 4
+                        </h2>
                         <div class="text-white mb-4"><span class="text-white-opacity-05"><small>By Mike Smith | 16
-                                    September 2017 | 1:30:20</small></span></div>
+                                    September 2017 |
+                                    1:30:20</small></span></div>
                         <p><a href="single-post.html" class="btn btn-primary btn-sm py-3 px-4 small">Read The
                                 Transcript</a></p>
 
@@ -134,13 +136,14 @@
                     <div class="text">
 
                         <h3 class="font-weight-light"><a href="single-post.html">Episode 08: How To Create Web Page
-                                Using Bootstrap 4</a></h3>
+                                Using Bootstrap
+                                4</a></h3>
                         <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span
                                         class="sep">/</span> 16 September 2017 <span class="sep">/</span>
                                     1:30:20</small></span></div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
-                            mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.
-                        </p>
+                            mollitia
+                            consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
 
                         <div class="player">
                             <audio id="player2" preload="none" controls style="max-width: 100%">
@@ -158,13 +161,14 @@
                     <div class="text">
 
                         <h3 class="font-weight-light"><a href="single-post.html">Episode 07: How To Create Web Page
-                                Using Bootstrap 4</a></h3>
+                                Using Bootstrap
+                                4</a></h3>
                         <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span
                                         class="sep">/</span> 16 September 2017 <span class="sep">/</span>
                                     1:30:20</small></span></div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
-                            mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.
-                        </p>
+                            mollitia
+                            consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
 
 
                         <div class="player">
@@ -183,13 +187,14 @@
                     <div class="text">
 
                         <h3 class="font-weight-light"><a href="single-post.html">Episode 06: How To Create Web Page
-                                Using Bootstrap 4</a></h3>
+                                Using Bootstrap
+                                4</a></h3>
                         <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span
                                         class="sep">/</span> 16 September 2017 <span class="sep">/</span>
                                     1:30:20</small></span></div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
-                            mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.
-                        </p>
+                            mollitia
+                            consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
 
                         <div class="player">
                             <audio id="player2" preload="none" controls style="max-width: 100%">
@@ -206,13 +211,14 @@
                     <div class="text">
 
                         <h3 class="font-weight-light"><a href="single-post.html">Episode 05: How To Create Web Page
-                                Using Bootstrap 4</a></h3>
+                                Using Bootstrap
+                                4</a></h3>
                         <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span
                                         class="sep">/</span> 16 September 2017 <span class="sep">/</span>
                                     1:30:20</small></span></div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
-                            mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.
-                        </p>
+                            mollitia
+                            consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
 
                         <div class="player">
                             <audio id="player2" preload="none" controls style="max-width: 100%">
@@ -229,13 +235,14 @@
                     <div class="text">
 
                         <h3 class="font-weight-light"><a href="single-post.html">Episode 04: How To Create Web Page
-                                Using Bootstrap 4</a></h3>
+                                Using Bootstrap
+                                4</a></h3>
                         <div class="text-white mb-3"><span class="text-black-opacity-05"><small>By Mike Smith <span
                                         class="sep">/</span> 16 September 2017 <span class="sep">/</span>
                                     1:30:20</small></span></div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
-                            mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.
-                        </p>
+                            mollitia
+                            consequatur, optio nesciunt placeat. Iste voluptates excepturi tenetur, nesciunt.</p>
 
                         <div class="player">
                             <audio id="player2" preload="none" controls style="max-width: 100%">
@@ -423,7 +430,8 @@
                         <div class="">
                             <h3 class="font-weight-light h5">Megan Smith</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum
-                                sed ea? Ducimus quos, ea?</p>
+                                sed ea? Ducimus
+                                quos, ea?</p>
                         </div>
                     </div>
 
@@ -435,7 +443,8 @@
                         <div class="">
                             <h3 class="font-weight-light h5">Brooke Cagle</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum
-                                sed ea? Ducimus quos, ea?</p>
+                                sed ea? Ducimus
+                                quos, ea?</p>
                         </div>
                     </div>
 
@@ -447,7 +456,8 @@
                         <div class="">
                             <h3 class="font-weight-light h5">Philip Martin</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum
-                                sed ea? Ducimus quos, ea?</p>
+                                sed ea? Ducimus
+                                quos, ea?</p>
                         </div>
                     </div>
 
@@ -459,7 +469,8 @@
                         <div class="">
                             <h3 class="font-weight-light h5">Steven Ericson</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum
-                                sed ea? Ducimus quos, ea?</p>
+                                sed ea? Ducimus
+                                quos, ea?</p>
                         </div>
                     </div>
 
@@ -471,7 +482,8 @@
                         <div class="">
                             <h3 class="font-weight-light h5">Nathan Dumlao</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum
-                                sed ea? Ducimus quos, ea?</p>
+                                sed ea? Ducimus
+                                quos, ea?</p>
                         </div>
                     </div>
 
@@ -483,7 +495,8 @@
                         <div class="">
                             <h3 class="font-weight-light h5">Brook Smith</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iusto. Aliquam illo, cum
-                                sed ea? Ducimus quos, ea?</p>
+                                sed ea? Ducimus
+                                quos, ea?</p>
                         </div>
                     </div>
 
@@ -500,7 +513,8 @@
                     <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                         <h2>Subscribe</h2>
                         <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit nihil saepe libero
-                            sit odio obcaecati veniam.</p>
+                            sit odio
+                            obcaecati veniam.</p>
                         <form action="#" method="post" class="site-block-subscribe">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control border-secondary text-white bg-transparent"
@@ -525,8 +539,10 @@
                         <div class="mb-5">
                             <h3 class="footer-heading mb-4">About Podca</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit
-                                vero atque, consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum
-                                totam quis blanditiis, minima minus odio!</p>
+                                vero atque,
+                                consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis
+                                blanditiis, minima
+                                minus odio!</p>
                         </div>
 
                         <div class="mb-5">
@@ -653,8 +669,8 @@
                             <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i
-                                class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                            </script> All rights reserved | This template is made
+                            with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
                                 target="_blank">Colorlib</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
