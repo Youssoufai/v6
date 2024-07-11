@@ -7,3 +7,4 @@ Route::view('/about', 'about')->name('about');
 Route::view('/service', 'service')->name('service');
 Route::view('/project', 'project')->name('project');
 Route::view('/podcast', 'podcast.index')->name('podcast');
+Route::view('/vdi', 'vdi.vdi')->name('vdi');

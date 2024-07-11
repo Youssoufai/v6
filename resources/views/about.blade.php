@@ -104,8 +104,6 @@
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="donate.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Donate<i
-                    class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -119,42 +117,6 @@
     <!-- Page Header End -->
 
     <!-- Feature Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 justify-content-center">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px">
-                            <i class="fa fa-check fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">01</h1>
-                    </div>
-                    <h5>Quality Assistance</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px">
-                            <i class="fa fa-drafting-compass fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">02</h1>
-                    </div>
-                    <h5>Free Consultation</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px">
-                            <i class="fa fa-headphones fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">03</h1>
-                    </div>
-                    <h5>24 / 7 Support</h5>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Feature end -->
 
     <!-- About Start -->
@@ -163,7 +125,7 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/logo.png"
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/4.png"
                             style="object-fit: cover" alt="" />
                     </div>
                 </div>
@@ -326,7 +288,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Kindly fill in your email address below to get updated through our monthly newsletter</p>
                     <div class="position-relative mx-auto" style="max-width: 400px">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
                             placeholder="Your email" />
@@ -342,7 +304,7 @@
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy;
-                        <a class="border-bottom" href="#">al-firdouse-foundation</a>, All
+                        <a class="border-bottom" href="#">Versalink Nigeria</a>, All
                         Right Reserved 2024.
                     </div>
                     <div class="col-md-6 text-center text-md-end">

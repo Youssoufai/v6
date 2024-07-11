@@ -97,7 +97,7 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
+                <a href="{{ route('vdi') }}" class="nav-item nav-link">Vdi</a>
                 <a href="{{ route('podcast') }}" class="nav-item nav-link">Podcast</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -110,8 +110,6 @@
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="donate.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Donate<i
-                    class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -190,42 +188,6 @@
     <!-- Carousel End -->
 
     <!-- Feature Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 justify-content-center">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px">
-                            <i class="fa fa-check fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">01</h1>
-                    </div>
-                    <h5>Quality Assistance</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px">
-                            <i class="fa fa-drafting-compass fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">02</h1>
-                    </div>
-                    <h5>Free Consultation</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light"
-                            style="width: 60px; height: 60px">
-                            <i class="fa fa-headphones fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">03</h1>
-                    </div>
-                    <h5>24 / 7 Support</h5>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Feature end -->
 
     <!-- About Start -->
@@ -234,7 +196,7 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/logo.png"
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/4.png"
                             style="object-fit: cover" alt="" />
                     </div>
                 </div>
@@ -287,70 +249,7 @@
     <!-- About End -->
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container feature px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Mission driven approach</h1>
-                        </div>
-                        <p class="mb-4 pb-2">
-                            Versalink's mission is twofold. We equip individuals with the skills and resources they need
-                            to thrive, fostering self-sufficiency and economic mobility. We also provide opportunities
-                            and support to disadvantaged communities, tackling local challenges and creating a more
-                            equitable future.
-                        </p>
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px">
-                                        <i class="fa fa-check fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Quality</p>
-                                        <h5 class="mb-0">Assistance</h5>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px">
-                                        <i class="fa fa-drafting-compass fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Free</p>
-                                        <h5 class="mb-0">Consultation</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px">
-                                        <i class="fa fa-headphones fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">24 / 7</p>
-                                        <h5 class="mb-0">Support</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pe-lg-0" style="min-height: 400px">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/boys.jpg"
-                            style="object-fit: cover" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Feature End -->
 
     <!-- Projects Start -->
@@ -650,7 +549,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-light mb-4">Newsletter</h4>
-                        <p>Type in your email address below to get update through our monthly newsletter</p>
+                        <p>Kindly fill in your email address below to get updated through our monthly newsletter</p>
                         <div class="position-relative mx-auto" style="max-width: 400px">
                             <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
                                 placeholder="Your email" />
